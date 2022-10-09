@@ -1,4 +1,4 @@
-Name: Sarmad Afzal
-Assignment 1
-CSCI 39548
-Professor Lynch
+Name: Sarmad Afzal <br />
+Assignment 1 <br />
+CSCI 39548 Web Development <br />
+Professor Lynch <br />
