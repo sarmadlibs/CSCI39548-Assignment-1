@@ -1,10 +1,21 @@
 "use strict";
 
 function changeColor() {
-  let color = document.body.style.color;
-  if (color === "violet") {
-    document.body.style.color = "green";
-  } else {
-    document.body.style.color = "violet";
+  var letters = "0123456789ABCDEF".split("");
+  var color = "#";
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.round(Math.random() * 15)];
   }
+  document.body.style.color = color;
+  return color;
+}
+
+function changeBackgroundColor() {
+  var letters = "0123456789ABCDEF".split("");
+  var color = "#";
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.round(Math.random() * 15)];
+  }
+  document.body.style.backgroundColor = color;
+  return color;
 }
