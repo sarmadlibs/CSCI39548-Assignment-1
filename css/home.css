@@ -1,0 +1,17 @@
+.center {
+  margin: auto;
+  width: 5%;
+  border: 5px solid violet;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+img {
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+a {
+  margin-right: 30px;
+}
